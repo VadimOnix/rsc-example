@@ -1,0 +1,13 @@
+.page {
+    display: grid;
+    place-content: center;
+    min-height: 100dvh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    grid-row-start: 2;
+}
